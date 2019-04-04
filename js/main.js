@@ -10,7 +10,6 @@ document.querySelector("input[name=firstname]").setAttribute("required","require
 document.querySelector("input[name=lastname]").setAttribute("required","required");
 document.querySelector("input[name=email]").setAttribute("required","required");
 document.querySelector("input[name=password]").setAttribute("required","required");
-document.querySelector("input[name=phonenumber]").setAttribute("pattern","(\+358)[0-9]{9}");
 document.querySelector("input[name=postalcode]").setAttribute("pattern","[0-9]{5}");
 
 //checkKEmpty
